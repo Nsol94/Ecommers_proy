@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.CMG{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    color:black;
+}
+
+.CMG img{
+    width: 100%;
+}
+
+.CMC img{
+    width: 25%;
+    transition: .4s;
+}
+
+.CMC img:hover{
+    transform: scale(1.1);
+    transition: .4s;
+}
